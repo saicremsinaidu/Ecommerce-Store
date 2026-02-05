@@ -95,21 +95,4 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-
-2. Backend Setup
-Navigate to the backend directory.
-
-Run the Spring Boot application:
-
-Bash
-./mvnw spring-boot:run
-
-3. Frontend Setup
-Navigate to the frontend directory.
-
-Install dependencies and start the server:
-
-Bash
-npm install
-npm start
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect```
